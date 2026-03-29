@@ -1,8 +1,8 @@
 # Práctica Formativa Obligatoria 1 - Portafolio Personal
 
 **Descripción del Proyecto:**
-Este proyecto es una Landing Page estática desarrollada como Trabajo Práctico individual. Su objetivo es crear un portafolio personal utilizando HTML5 semántico y CSS3 puro, implementando metodologías de diseño responsivo (Flexbox/Grid), estilos personalizados, y publicación mediante GitHub Pages.
-
+Este proyecto es una Landing Page estática desarrollada como Trabajo Práctico individual. Su objetivo es crear un portafolio personal utilizando HTML5 semántico y CSS3 puro, implementando metodologías de diseño responsivo (Flexbox/Grid), estilos personalizados y publicación mediante GitHub Pages:
+https://marialopez2020.github.io/PFO1-MariaLopez/
 ---
 
 ## Checklist - Práctica Formativa Obligatoria 1
@@ -17,7 +17,7 @@ Este proyecto es una Landing Page estática desarrollada como Trabajo Práctico 
 - [x] Repositorio en GitHub creado.
 - [x] Proyecto subido al repositorio.
 - [x] Proyecto publicado utilizando GitHub Pages.
-- [x] En el "README.md" se indica la URL de GitHub Pages: 
+- [x] En el "README.md" se indica la URL de GitHub Pages.
 
 ### Uso de Google Fonts:
 - [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
