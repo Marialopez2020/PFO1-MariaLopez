@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>María López</h1>
+        <p>Portafolio Profesional</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy María. Como abogada, mediadora y estudiante entusiasta de desarrollo de software desde Venado Tuerto, me apasiona encontrar soluciones lógicas y efectivas a problemas complejos. Mi misión como desarrolladora es fusionar mi experiencia en resolución de conflictos con la tecnología, creando herramientas útiles, como plataformas web que faciliten la conexión entre profesionales y usuarios.</p>
+        </section>
+
+        <section id="tarjetas">
+            <div class="tarjeta" id="proyectos">
+                <h3>Plataforma de Cursos</h3>
+                <p>Desarrollo de una plataforma web integral enfocada en cursos de programacion.</p>
+            </div>
+            <div class="tarjeta">
+                <h3>Gestión de Consorcios</h3>
+                <p>Aplicación de herramientas digitales para la comunicación y administración eficiente de complejos habitacionales.</p>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Mis Habilidades e Intereses</h2>
+            <table class="tabla-habilidades">
+                <tr>
+                    <th>Tecnologías (Dominadas/Aprendiendo)</th>
+                    <th>Hobbies e Intereses</th>
+                </tr>
+                <tr>
+                    <td>HTML5 y CSS3</td>
+                    <td>Meditacion</td>
+                </tr>
+                <tr>
+                    <td>Bases de Datos (SQL)</td>
+                    <td>Costura y diseño de moda</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo Backend</td>
+                    <td>Práctica e instructorado de Yoga</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="peliculas">
+            <h2>Mis 3 Películas Favoritas</h2>
+            <div class="contenedor-peliculas">
+                <article class="pelicula">
+                    <h3>The Matrix</h3>
+                    <p>Una obra maestra que me hace reflexionar constantemente sobre la realidad, el aprendizaje y la lógica detrás de los sistemas.</p>
+                </article>
+                <article class="pelicula">
+                    <h3>Interstellar</h3>
+                    <p>Visualmente impactante. Muestra cómo la ciencia, el tiempo y la conexión humana pueden trascender cualquier frontera.</p>
+                </article>
+                <article class="pelicula">
+                    <h3>El Código Enigma</h3>
+                    <p>Inspiradora historia sobre los inicios de la computación y la resolución de problemas aparentemente imposibles.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 María Soledad López Sauque. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+</html>
